@@ -3,7 +3,7 @@ once make word guess is called in the word class it should allow for input at th
  1. if its green make sure you only have words that have that letter at that index
  2. if its yellow make sure that you get rid of any words with that letter at that index and make sure you make sure that the word must include that letter at some point
 3. if its grey just call get rid of letter and add it to the list of letters that cant be used
-have to make sure that once a letter is confirmed it can never be changed from that position
+have to make sure that once a letter is confirmed it can never be changed from that position.
 """
 class possibleWords:
   def __init__(self,possibleWordsList):
